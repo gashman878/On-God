@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(187, 152, 187);
+}
+#body{
+    display: flex;
+    background-color: rgb(83, 49, 83);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 8vh;
+    width: 80%;
+    height: 85vh;
+}
+#body2{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    border-radius: 20px;
+    width: 76vw;
+    height: 80vh;
+    margin: auto;
+}
+#picture{
+    justify-content: flex-start;
+    background-color: aquamarine;
+    border-radius: 20px;
+    width: 37vw;
+    height: 80vh;
+    margin: auto;
+}
+#form{
+    background-color: rgb(22, 58, 46);
+    border-radius: 20px;
+    width: 37vw;
+    height: 80vh;
+    margin: auto;
+}
