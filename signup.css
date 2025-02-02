@@ -60,3 +60,37 @@ input:focus{
     background-color: white;
     border: 3px solid rgb(200, 200, 200);
 }
+input[type=checkbox]{
+    margin: auto;
+    margin: 0%; 
+    width: 20px;
+}
+#checkbox{
+    display: flex;
+}
+.lnk{
+    color: rgb(187, 152, 187);
+}
+#create{
+    background-color: rgb(219, 37, 219);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 5vh;
+    width: 25.5vw;
+}
+#butts{
+    background-color: red;
+    display: flex;
+    height: 10vh;
+    width: 25.5vw;
+    justify-content: space-between;
+    margin: auto;
+}
+.butts2{
+    font-family: 'Times New Roman', Times, serif;
+    height: 40px;
+    padding: 0px 65px;
+    border: none;
+    border-radius: 5px;
+}
