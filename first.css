@@ -65,7 +65,7 @@ body{
     padding: 0px;
 }
 .lnks:link, .lnks:visited{
-    background-color: rgb(200, 200, 200);
+    background-color: #c8c8c8;
     text-decoration: none;
     padding: 5px 20px;
     border-radius: 20px;
