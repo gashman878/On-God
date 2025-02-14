@@ -21,11 +21,49 @@ body{
 }
 #picture{
     justify-content: flex-start;
-    background-color: aquamarine;
+    background-image: url(Pictures/wall5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 20px;
+    overflow: hidden;
     width: 37vw;
     height: 80vh;
     margin: auto;
+}
+.backhead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 93%;
+    height: 12vh;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.amu{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+.backfoot{
+    width: 100%;
+    height: 30vh;
+    margin-top: 50vh;
+}
+.backto{
+    background-color: rgb(150, 150, 150);
+    color: white;
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 7px 15px;
+    text-decoration: none;
+    margin: 0;
+    opacity: 0.9;
+}
+.caps{
+    margin: 0;
+    width: 54%;
+    margin: auto;
+    text-align: center;
 }
 #main-container{
     border-radius: 20px;
@@ -111,4 +149,5 @@ input[type=checkbox]{
 img{
     height: 20px;
     width: 25px;
+    padding-right: 4px;
 }
