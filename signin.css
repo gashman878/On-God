@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(19, 17, 20);
+}
+.container{
+    background-color: gray;
+    background-image: linear-gradient(to bottom right, white, rgb(88, 111, 133), rgb(55, 90, 55), black, black, black, black, rgb(90, 90, 90), black, black, black, black, rgb(45, 42, 35), rgb(45, 42, 35), rgb(45, 42, 35), rgb(45, 42, 35));
+    border: 1px solid white;
+    width: 38%;
+    height: 92vh;
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: 50px;
+}
+.head{
+    color: white;
+    text-align: center;
+}
