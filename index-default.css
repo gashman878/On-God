@@ -37,7 +37,7 @@ a{
 }
 .gashman{
     font-family: Roboto;
-    font-size: 45px;
+    font-size: 50px;
     font-weight: 400;
     width: fit-content;
     margin: 0 auto;
@@ -83,18 +83,19 @@ a{
     padding: 15px 0px;
 }
 .skill_holder{
-    padding: 30px 0px;
+    padding: 10px 0px 0px;
 }
 .skills{
     color: #ffffff;
     font-family: Roboto;
     font-size: 30px;
-    padding: 0px 0px 30px;
+    padding: 20px 0px 0px;
 }
 .first_skill{
     color: #b4b4b4;
     font-family: Roboto;
     font: size 24px;
+    margin: 20px 0px 0px;
 }
 .progress-container {
     width: 100%;
@@ -109,7 +110,7 @@ a{
     padding: 0px 0px 20px;
 }
 .completion{
-    padding: 10px 0px;
+    padding: 30px 0px;
 }
 .completed{
     color: #0f0f0f;
@@ -215,9 +216,64 @@ a{
     background-color: #8f8a8a;
     border: 2px solid red;
 }
-.fourth_page{
+.fourth{
+    padding: 20px 0px;
+    border: 2px solid green;
+    overflow: hidden;
+}
+.form_head{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 30px;
+    padding: 20px 0px 10px;
+}
+.form_text{
+    color: #b4b4b4;
+    font-family: Roboto;
+    font-size: 18px;
+    padding: 0px 0px 10px;
+}
+.form_detail{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 20px 10px;
+    margin: 0px 0px 10px;
+    border: none;
+}
+.send_message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b4b4b4;
+    border-radius: 5px;
+    width: 50%;
+    height: 50px;
+    float: right;
+}
+.img_btn{
+    width: 23px;
+    height: 23px;
+}
+.send_text{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: none;
+    color: black;
+}
+.button_msg{
+    color: #000000;
+}
+.fifth_page{
     border: 2px solid blue;
     padding: 30px 0px;
+}
+.contact_me{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 30px;
+    padding: 0px 0px 20px 0px;
 }
 .contact{
     display: flex;
@@ -226,12 +282,12 @@ a{
 }
 .bi{
     color: #ffffff;
-    padding: 10px 20px 0px;
+    padding: 10px 20px 0px 0px;
 }
 .contact_detail{
     color: #b4b4b4;
     font-family: Roboto;
     font: size 24px;
-    padding: 10px 20px 0px;
+    padding: 10px 0px 0px 0px;
     text-transform: none;
 }
