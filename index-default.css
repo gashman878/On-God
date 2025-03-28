@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    padding: 0px 10px;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    color: rgb(200, 200, 200);
+    font-family: Roboto;
+    font-weight: 300;
+}
+.container{
+    padding: 0px 10%;
+}
+.first_page{
+    color: #ffffff;
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px 0px 10px;
+}
+.gashman{
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 400;
+}
+.front_end{
+    font-family: Roboto;
+    width: fit-content;
+    font-family: Roboto;
+    margin: 0 auto;
+    padding: 30px 0px 10px;
+}
+.myimg_holder{
+    width: 100%;
+    height: 400px;
+    border: 2px solid #807878;
+    margin: 0 auto;
+}
+.second_page{
+    height: fit-content;
+    margin: 0 auto;
+}
+.name{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 32px;
+    padding: 20px 0px;
+}
+.details{
+    color: #b4b4b4;
+    text-align: justify;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 15px;
+    padding: 15px 0px;
+}
+.skill_holder{
+    padding: 30px 0px;
+}
+.skills{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 30px;
+}
+.first_skill{
+    color: #b4b4b4;
+    font-family: Roboto;
+    font: size 24px;
+    padding: 10px 0px;
+}
+.progress-container {
+    width: 100%;
+    background-color: #fcfafa;
+    overflow: hidden;
+}
+.progress-bar {
+    height: 20px;
+    width: 0;
+    background-color: #b4b4b4;
+    transition: width 0.5s ease-in-out;
+}
+.completion{
+    padding: 10px 0px;
+}
+.completed{
+    color: #0f0f0f;
+    background-color: #b4b4b4;
+    text-align: justify;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 20px 0px;
+    text-align: center;
+    margin: 0 auto;
+}
+.download{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #807878;
+    width: 50%;
+    height: 50px;
+}
+.download_btn{
+    width: 23px;
+    height: 23px;
+}
+.download_text{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: none;
+    color: black;
+}
+.footer{
+    height: 100px;
+    border: 2px solid #4caf50;
+    margin: 30px 0px;
+}
+.third-page{
+    height: fit-content;
+    margin: 0 auto;
+}
+.price{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 30px;
+    padding: 30px 0px 20px;
+}
+.price_box{
+    padding: 20px 0px;
+}
+.basic{
+    background-color: #2c2b2b;
+    align-content: center;
+    font-family: Roboto;
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+    height: 60px;
+    width: 100%;
+}
+.part{
+    background-color: #8f8a8a;
+    align-content: center;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #201f1f;
+}
+.rate{
+    background-color: #8f8a8a;
+    align-content: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #201f1f;
+}
+.rate span{
+    color: #2c2b2b;
+    font-weight: 400;
+    font-size: 16px;
+}
+.sign{
+    background-color: #585757;
+    align-content: center;
+    font-family: Roboto;
+    text-align: center;
+    color: #ffffff;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #201f1f;   
+}
+.sign_link{
+    text-transform: none;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #000000;
+    background-color: #8f8a8a;
+    border: 2px solid red;
+}
