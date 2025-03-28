@@ -142,11 +142,6 @@ a{
     text-transform: none;
     color: black;
 }
-.footer{
-    height: 100px;
-    border: 2px solid #4caf50;
-    margin: 30px 0px;
-}
 .third-page{
     height: fit-content;
     margin: 0 auto;
@@ -218,7 +213,6 @@ a{
 }
 .fourth{
     padding: 20px 0px;
-    border: 2px solid green;
     overflow: hidden;
 }
 .form_head{
@@ -265,8 +259,20 @@ a{
 .button_msg{
     color: #000000;
 }
+.projects{
+    background-color: #ffffff;
+    padding: 30px 0px 0px;
+}
+.project1{
+    background-color: #807878;
+    margin: 0px 20px 20px;
+    height: 70px;
+    text-align: center;
+    align-content: center;
+    color: #000000;
+    font-weight: 400;
+}
 .fifth_page{
-    border: 2px solid blue;
     padding: 30px 0px;
 }
 .contact_me{
@@ -290,4 +296,14 @@ a{
     font: size 24px;
     padding: 10px 0px 0px 0px;
     text-transform: none;
+}
+.footer{
+    height: 40px;
+    margin: 30px 0px 0px;
+    align-content: center;
+}
+.footer_details{
+    color: #ffffff;
+    width: fit-content;
+    margin: 0 auto;
 }
