@@ -23,6 +23,7 @@ a{
 }
 .container{
     padding: 0px 10%;
+    overflow: hidden;
 }
 .first_page{
     color: #ffffff;
@@ -56,8 +57,10 @@ a{
     overflow: hidden;
 }
 .my_portrait{
-    width: 120%;
-    height: 110%;
+    width: 190%;
+    height: 100%;
+    padding-left: px;
+    padding-right: 200px;
    
 }
 .second_page{
