@@ -20,10 +20,10 @@
         </div>
         <div class="navigation">
             <ul>
-                <li><a href="#Home">home</a></li>
-                <li><a href="#About">about</a></li>
-                <li><a href="#Projects">projects</a></li>
-                <li><a href="#Contact">contact</a></li>
+                <li><a class="first_link" href="#Home">home</a></li>
+                <li><a class="first_link" href="#About">about</a></li>
+                <li><a class="first_link" href="#Projects">projects</a></li>
+                <li><a class="first_link" href="#Contact">contact</a></li>
             </ul>
         </div>
     </div>
@@ -94,7 +94,11 @@
                 <p class="part">Remote</p>
                 <p class="part">No Meets</p>
                 <p class="rate">$8<br><span>per hour</span></p>
-                <p class="sign"><a class="sign_link" href="">Sign Up</a></p>
+                <div class="sign_up">
+                    <a href="">
+                        <div class="sign">Sign Up</div>
+                    </a>
+                </div>
             </div>
             <div class="price_box">
                 <p class="basic">Premium</p>
@@ -102,23 +106,30 @@
                 <p class="part">On-Site</p>
                 <p class="part">Meet-Ups</p>
                 <p class="rate">$15<br><span>per hour</span></p>
-                <p class="sign"><a class="sign_link" href="">Sign Up</a></p>
+                <div class="sign_up">
+                    <a href="">
+                        <div class="sign">Sign Up</div>
+                    </a>
+                </div>
             </div>
         </div>
 
-        <div id="Projects" class="projects">
-            <a href="">
-                <div class="project1">First Project</div>
-            </a>
-            <a href="">
-                <div class="project1">Second Project</div>
-            </a>
-            <a href="">
-                <div class="project1">Third Project</div>
-            </a>
-            <a href="">
-                <div class="project1">Fourth Project</div>
-            </a>
+        <div class="projects_holder">
+            <h1 class="projects_">Projects I have Done</h1>
+            <div id="Projects" class="projects">
+                <a href="">
+                    <div class="project1">First Project</div>
+                </a>
+                <a href="">
+                    <div class="project1">Second Project</div>
+                </a>
+                <a href="">
+                    <div class="project1">Third Project</div>
+                </a>
+                <a href="">
+                    <div class="project1">Fourth Project</div>
+                </a>
+            </div>
         </div>
 
 
@@ -129,8 +140,9 @@
                 <input class="form_detail" type="text" name="" id="" placeholder="Name">
                 <input class="form_detail" type="email" name="" id="" placeholder="Email">
                 <input class="form_detail" type="text" name="" id="" placeholder="Subject">
-                <input class="form_detail" type="text" name="" id="" placeholder="Message">
+                <textarea class="bigger" name="" id="" placeholder="Message">Message</textarea>
             </form>
+            
             <a href="">
                 <div class="send_message">
                     <img class="img_btn" src="Pictures/publish_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" alt="">
