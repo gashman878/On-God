@@ -53,7 +53,7 @@ li{
     height: fit-content;
     width: fit-content;
     margin: 0 auto;
-    padding: 90px 0px 10px;
+    padding: 90px 0px 0px;
 }
 .first_text{
     overflow: hidden;
@@ -94,7 +94,7 @@ li{
     color: #ffffff;
     font-family: Roboto;
     font-size: 32px;
-    padding: 0px 0px 20px;
+    padding: 70px 0px 20px;
 }
 .details{
     color: #b4b4b4;
@@ -241,7 +241,7 @@ li{
     color: #ffffff;
     font-family: Roboto;
     font-size: 30px;
-    padding: 20px 0px 10px;
+    padding: 70px 0px 10px;
 }
 .form_text{
     color: #b4b4b4;
@@ -255,10 +255,11 @@ li{
     padding: 20px 10px;
     margin: 0px 0px 10px;
     border: none;
+    border-radius: 0px;
 }
-/* input[type=text]{
-    color: ;
-} */
+input[type=text]{
+    border-radius: 0px;
+}
 .bigger{
     height: 100px;
     width: 100%;
