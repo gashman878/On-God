@@ -317,6 +317,7 @@ li{
     color: #000000;
     font-weight: 400;
     font-family: Roboto;
+    font-size: 18px;
 }
 .fifth_page{
     padding: 30px 0px;
@@ -348,7 +349,7 @@ li{
     margin: 30px 0px 0px;
     align-content: center;
 }
-.footer_details{
+.footer_detail{
     color: #ffffff;
     width: fit-content;
     margin: 0 auto;
