@@ -27,6 +27,7 @@
     align-content: start;
 }
 ul{
+    display: block;
     width: 100%;
 }
 .nav_icon{
