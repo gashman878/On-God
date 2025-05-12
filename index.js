@@ -1,3 +1,4 @@
-function switchMode(params) {
-    document.getElementById('body').style.backgroundColor = 'blue';
+function switchMode() {
+    const stylesheet = document.getElementById("themeStylesheet");
+    stylesheet.href = "whiteMode.css";
 }
