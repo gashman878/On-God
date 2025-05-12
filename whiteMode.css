@@ -1,5 +1,5 @@
 body{
-    background-color: blue;
+    background-color: white;
 }
 .header{
     position: fixed;
@@ -97,7 +97,7 @@ li{
 .first_skill{
     font-size: 28px;
     padding: 0 0 10px 0px;
-    color: #ffffff;
+    color: black;
 }
 .progress-container{
     background-color: #0b0b0b;
@@ -154,22 +154,53 @@ a{
     font-size: 40px;
     padding-top: 50px;
     padding-bottom: 20px;
+    color: black;
 }
 .no_projects{
-    color: #ffffff;
     font-family: Roboto;
-    color: #b4b4b4;
+    color: #090909;
     padding-bottom: 10px;
+}
+.projects{
+    background-color: black;
 }
 .project1{
     font-family: Roboto;
+    color: white;
 }
 .form_head{
     font-size: 40px;
     padding-top: 50px;
     padding-bottom: 10px;
+    color: black;
+}
+.form_text{
+    color: black;
+}
+.bigger{
+    color: white;
+    background-color: black;
+}
+.form_detail{
+    color: white;
+    background-color: black;
 }
 .send_message{
     width: 20%;
-    background-color: #ffffff;
+    background-color: black;
+}
+.send_text{
+    color: white;
+}
+.contact_me, .contact_detail{
+    color: black;
+}
+hr{
+    border: 1px solid black;
+}
+.bi{
+    color: black;
+}
+.footer{
+    color: black;
 }
