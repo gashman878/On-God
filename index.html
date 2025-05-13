@@ -8,9 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Gashman-Portfolio</title>
-    <link rel="stylesheet" href="index-default.css">
-    <link rel="stylesheet" href="index-tab.css" media="screen and (min-width: 450px)">
-    <link id="themeStylesheet" rel="stylesheet" href="index-desktop.css" media="screen and (min-width: 769px)">
+    <link id="themeStylesheet" rel="stylesheet" href="index-default.css">
     <script src="index.js"></script>
 </head>
 <body id="body">
@@ -143,8 +141,8 @@
             <form action="" method="post">
                 <p id="Contact" class="form_head">Let's get in touch.</p>
                 <p class="form_text">Send me a message:</p>
-                <input class="form_detail" type="text" name="" id="name" placeholder="Name">
-                <input class="form_detail" type="email" name="" id="email" placeholder="Email">
+                <input class="form_detail" type="text" name="" id="name" placeholder="Name" autocomplete="additional-name">
+                <input class="form_detail" type="email" name="" id="email" placeholder="Email" autocomplete="email">
                 <input class="form_detail" type="text" name="" id="subject" placeholder="Subject">
                 <textarea class="bigger" name="" id="text" placeholder="Message"></textarea>
             </form>
