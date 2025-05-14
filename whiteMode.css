@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: red;
+    background-color: white;
 }
 .header_logo{
     display: none;
@@ -18,7 +18,7 @@ a{
     width: 100%;
     height: 70px;
     overflow: hidden;
-    background-color: #0f0f0f;
+    background-color: #eceaea;
     opacity: 0.7;
 }
 ul{
@@ -40,7 +40,7 @@ li{
     text-decoration: none;
     text-transform: uppercase;
     list-style: none;
-    color: white;
+    color: black;
     font-family: Roboto;
     font-weight: 300;
     padding: 0px 10px;
@@ -51,7 +51,7 @@ li{
     overflow: hidden;
 }
 .first_page{
-    color: #ffffff;
+    color: black;
     height: fit-content;
     width: fit-content;
     margin: 0 auto;
@@ -93,13 +93,13 @@ li{
     margin: 0 auto;
 }
 .name{
-    color: #ffffff;
+    color: black;
     font-family: Roboto;
     font-size: 32px;
     padding: 70px 0px 20px;
 }
 .details{
-    color: #b4b4b4;
+    color: black;
     text-align: justify;
     font-family: Roboto;
     font-weight: 200;
@@ -111,20 +111,20 @@ li{
     padding: 10px 0px 0px;
 }
 .skills{
-    color: #ffffff;
+    color: black;
     font-family: Roboto;
     font-size: 30px;
     padding: 20px 0px 0px;
 }
 .first_skill{
-    color: #b4b4b4;
+    color: #494949;
     font-family: Roboto;
     font: size 24px;
     margin: 20px 0px 0px;
 }
 .progress-container {
     width: 100%;
-    background-color: #fcfafa;
+    background-color: #050505;
     overflow: hidden;
 }
 .progress-bar {
@@ -138,8 +138,8 @@ li{
     padding: 30px 0px;
 }
 .completed{
-    color: #0f0f0f;
-    background-color: #b4b4b4;
+    color: #fdfcfc;
+    background-color: #050505;
     text-align: justify;
     font-family: Roboto;
     font-weight: 400;
@@ -152,7 +152,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #807878;
+    background-color: #1b1b1b;
     width: 50%;
     height: 50px;
 }
@@ -165,14 +165,14 @@ li{
     font-size: 16px;
     font-weight: 500;
     text-transform: none;
-    color: black;
+    color: white;
 }
 .third-page{
     height: fit-content;
     margin: 0 auto;
 }
 .price{
-    color: #ffffff;
+    color: black;
     font-family: Roboto;
     font-size: 30px;
     padding: 30px 0px 0px;
@@ -181,7 +181,7 @@ li{
     padding: 20px 0px 0px;
 }
 .basic{
-    background-color: #2c2b2b;
+    background-color: #acaaaa;
     align-content: center;
     font-family: Roboto;
     font-size: 28px;
@@ -191,7 +191,7 @@ li{
     width: 100%;
 }
 .part{
-    background-color: #8f8a8a;
+    background-color: #c2c0c0;
     align-content: center;
     font-family: Roboto;
     font-size: 16px;
@@ -202,7 +202,7 @@ li{
     border-bottom: 1px solid #201f1f;
 }
 .rate{
-    background-color: #8f8a8a;
+    background-color: #c2c0c0;
     align-content: center;
     font-family: Roboto;
     font-size: 20px;
@@ -220,7 +220,7 @@ li{
 }
 .sign_up{
     height: 90px;
-    background-color: #2c2b2b;
+    background-color: #acaaaa;
     align-content: center;
 }
 .sign{
@@ -240,13 +240,13 @@ li{
     overflow: hidden;
 }
 .form_head{
-    color: #ffffff;
+    color: black;
     font-family: Roboto;
     font-size: 30px;
     padding: 70px 0px 10px;
 }
 .form_text{
-    color: #b4b4b4;
+    color: #555454;
     font-family: Roboto;
     font-size: 18px;
     padding: 0px 0px 10px;
@@ -273,7 +273,7 @@ input[type=text]{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: black;
     width: 50%;
     height: 40px;
     float: right;
@@ -290,35 +290,35 @@ input[type=text]{
     color: black;
 }
 .button_msg{
-    color: #000000;
+    color: white;
 }
 .projects_holder{
     padding: 30px 0px 0px;
 }
 .projects{
     font-size: 40px;
-    background-color: #ffffff;
+    background-color: black;
     padding: 50px 0px 20px;
 }
 .no_projects{
-    color: #ffffff;
+    color: white;
     font-family: Roboto;
-    color: #b4b4b4;
+    color: #525151;
     padding-bottom: 10px;
 }
 .projects_{
-    color: #ffffff;
+    color: black;
     font-family: Roboto;
     font-weight: 400;
     padding-top: 70px;
 }
 .project1{
-    background-color: #807878;
+    background-color: #7c7b7b;
     margin: 0px 20px 20px;
     height: 70px;
     text-align: center;
     align-content: center;
-    color: #000000;
+    color: white;
     font-weight: 400;
     font-family: Roboto;
     font-size: 18px;
@@ -327,7 +327,7 @@ input[type=text]{
     padding: 30px 0px;
 }
 .contact_me{
-    color: #ffffff;
+    color: black;
     font-family: Roboto;
     font-size: 30px;
     padding: 0px 0px 20px 0px;
@@ -338,11 +338,11 @@ input[type=text]{
     padding: 0px 0px;
 }
 .bi{
-    color: #ffffff;
+    color: black;
     padding: 10px 20px 0px 0px;
 }
 .contact_detail{
-    color: #b4b4b4;
+    color: #131212;
     font-family: Roboto;
     font: size 24px;
     padding: 10px 0px 0px 0px;
@@ -410,6 +410,7 @@ li{
     font-size: 14px;
     font-weight: 450;
     background-color: #1b1a1a;
+    color: white;
 }
 .first_link:hover{
     background-color: #000000;
@@ -442,7 +443,7 @@ li{
 .details{
     font-size: 20px;
     line-height: 24px;
-    color: #b4b4b4;
+    color: black;
 }
 .skills{
     font-size: 40px;
@@ -504,8 +505,22 @@ a{
     padding-top: 50px;
     padding-bottom: 10px;
 }
+.form_detail{
+    background-color: black;
+    color: white;
+}
+.bigger{
+    background-color: black;
+    color: white;
+}
 .send_message{
     width: 20%;
-    background-color: #ffffff;
+    background-color: black;
+}
+.send_text{
+    color: white;
+}
+.footer_details{
+    color: black;
 }
   }
