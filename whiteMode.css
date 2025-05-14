@@ -451,7 +451,7 @@ li{
 .first_skill{
     font-size: 28px;
     padding: 0 0 10px 0px;
-    color: #ffffff;
+    color: black;
 }
 .completion{
     display: flex;
@@ -461,11 +461,11 @@ li{
     width: 20%;
     font-size: 20px;
     font-weight: 350;
-    background-color: #ffffff;
+    background-color: black;
 }
 .download{
     width: 20%;
-    background-color: #ffffff;
+    background-color: black;
 }
 a{
     text-decoration: none;
